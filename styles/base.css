@@ -16,7 +16,7 @@ header{
   color: #ffffff;
 }
 nav{
-  backgournd-color: #36454f;
+  background-color: #36454f;
   margin: 0 auto;
   max-width: 800px;
 }
@@ -26,19 +26,19 @@ nav ul{
 nav a{
   display: block;
   color: white;
-  text-alignment: center;
-  padding 1rem;
+  text-align: center;
+  padding: 1rem;
   text-decoration: none;
 }
 nav a:hover{
   border: 1px solid #ffff;
-  backgound: white;
+  background: white;
   color: #003366;
 }
 .active{
   color: yellow;
 }
-@ media(min-width: 640px){
+@media(min-width: 640px){
   nav ul {
     display: flex;
   }
@@ -56,4 +56,10 @@ footer{
 }
 footer P {
   margin: 5px;
+}
+main{
+  display: grid;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
 }

@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Roboto;
+  background: #f4f4f4;
+  color: #333;
+}
+
+body{
+  font-family: Roboto, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+  font-weight: 100;
+}
+
+header{
+  background: #003366;
+  color: #ffffff;
+  display: flex;
+  grid-gap: 1rem;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0.1);
+  box-shadow: 0 0 30px #3333;
+}
+header,
+main{
+  margin: 0 auto;
+}
+
+nav{
+  background-color: #3A5A82;
+  margin: 0 auto;
+  max-width: 800px;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+nav a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding 1rem;
+  text-decoration: none;
+  font-size: larger;
+}
+nav a:hover{
+  border: 1px solid #ffff;
+  background: white;
+  color: #003366;
+  text-decoration: underline;
+}
+footer{
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+footer P {
+  margin: 5px;
+}
+@media (min-width: 740px){
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: conter;
+  }
+ 
+  nav ul {
+    justify-content: flex-end;
+    display: flex;
+  }
+ 
+  nav a{
+    flex: 1 1 100%;
+  }
+  #navMenu{
+    display: none;
+  }
+  #navMenu.open{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+}
+.container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 25px;
+      place-items: center;
+}
+
+figure {
+      background-color: #fff;
+}
+img {
+      width: 100%;
+      height: auto;
+      margin: 0.5rem;
+}
+figcaption {
+      font-size: smaller;
+}
+
+.hover:hover {
+      box-shadow: 0 0 50px #333;
+}
+.home{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+.home{
+    grid-template-columns:repeat(3,1fr);
+}
+#MenuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#MenuButton::before {
+    content: "☰";
+}
+
+#MenuButton.open::before {
+    content: "❎";
+}
+#navMenu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3A5A82;
+}
+
+#navMenu.open {
+    display: flex;
+}
+
+#navMenu a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+#navMenu a:hover {
+    background-color: white;
+    color: #003366;
+}

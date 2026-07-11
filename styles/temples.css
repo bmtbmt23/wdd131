@@ -112,7 +112,7 @@ figcaption {
   box-shadow: 0 0 50px #333;
 }
 
-#MenuButton {
+#menuButton {
     background: none;
     border: none;
     color: white;
@@ -120,11 +120,11 @@ figcaption {
     cursor: pointer;
 }
 
-#MenuButton::before {
+#menuButton::before {
     content: "☰";
 }
 
-#MenuButton.open::before {
+#menuButton.open::before {
     content: "❎";
 }
 #navMenu {

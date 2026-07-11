@@ -7,7 +7,7 @@ document.getElementById("lastModified").innerHTML =
 const menuButton = document.querySelector('#menuButton');
 const navMenu = document.querySelector('nav');
 
-MenuButton.addEventListener('click', ()=> {
+menuButton.addEventListener('click', ()=> {
   navMenu.classList.toggle('open');
-  menuButton.classlist.toggle('open');
+  menuButton.classList.toggle('open');
 });

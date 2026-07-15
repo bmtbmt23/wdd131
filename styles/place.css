@@ -46,7 +46,7 @@ picture img{
 
 h1::first-letter{
   color: var(--secondary);
-  font-size: 1rem;
+  font-size: 3rem;
 }
 
 footer{

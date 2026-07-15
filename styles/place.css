@@ -44,7 +44,7 @@ picture img{
   font-weight: bold;
 }
 
-h1::fist-letter{
+h1::first-letter{
   color: var(--secondary);
   font-size: 1rem;
 }

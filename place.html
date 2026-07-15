@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Brazil</title>
+
+<link rel="stylesheet" href="styles/place.css">
+<link rel="stylesheet" href="styles/place-large.css">
+
+<script src="js/place.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <h1>Brazil</h1>
+  </header>
+  <main>
+    <picture>
+      <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+      <source srcset="images/hero-medium.webp" media="(min-width: 550px)">
+      <img src="images/hero-small.webp" alt="Brazil" width="400" height="200">
+    </picture>
+   
+    <section class="card">
+      <h2>Data</h2>
+      <p><span class="label">Area: </span>8,515,767 km²</p>
+      <p><span class="label">Population: </span>216 Million</p>
+      <p><span class="label">Capital: </span>Brasilia</p>
+      <p><span class="label">Idiom: </span>Portuguese</p>
+      <p><span class="label">Time Zone: </span>Brazil (GMT-3)</p>
+    </section>
+   
+    <section class="card-weather">
+      <h2>Weather</h2>
+      <img src="images/weather.svg" alt="Brazil Weather" class="weather-icon">
+      <p><span class="label">Temperature: </span> <span id="temp"></span>30°C</p>
+      <p><span class="label">Conditions: </span>Warm Winter</p>
+      <p><span class="label">Wind: </span> <span id="wind">7</span> Km/h</p>
+      <p><span class="label">Wind Chill: </span> <span id="windChill"></span> 70F</p>
+    </section>
+   
+    <Section class="card-Brazil">
+      <h2>About Brazil</h2>
+      <p>Brazil is located in South America. The country has the most biodiverse environments including the Amazon and the Pantanal. Brazilian are extremely friendly, relaxed and welcoming to foreigners. Brazil is the only country to have won the FIFA World Cup five times. There are 24 temples across the country.</p>
+      </section>
+  </main>
+  <footer>
+        <p>
+        &copy; <span id="currentyear"></span> Bruna Beck | Utah, USA
+    </p>
+<p id="lastModified"></p>
+  </footer>
+  </body>
+</html>

@@ -20,5 +20,5 @@ function calculateWindChill(temp, speed){
 if (temperature <= 10 && windSpeed > 4.48){
   document.getElementById("windChill").textContent = `${calculateWindChill(temperature, windSpeed)} °C`;
 }else{
-  document.getElementById("windChill").textContet = "N/A";
+  document.getElementById("windChill").textContent = "N/A";
 }

@@ -43,6 +43,14 @@ picture img{
 .card p:first-child{
   font-weight: bold;
 }
+.card-brazil{
+  background: vra(--background);
+  margin:1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+
+}
 
 h1::first-letter{
   color: var(--secondary);
@@ -57,13 +65,16 @@ footer{
   margin-top: 2rem;
   font-size: 1rem;
 }
+.weather-icon{
+  display:block;
+}
 @media (min-width: 740px){
   header{
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-.weather h2::after{
+.card-weather h2::after{
     content:"⛅";
 }
 .weather-icon{

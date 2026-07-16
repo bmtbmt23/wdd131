@@ -44,7 +44,7 @@ picture img{
   font-weight: bold;
 }
 .card-brazil{
-  background: vra(--background);
+  background: var(--background);
   margin:1rem;
   padding: 1rem;
   border-radius: 10px;

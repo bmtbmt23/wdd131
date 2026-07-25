@@ -20,7 +20,6 @@ main{
   width: 400px;
   display: flex;
   flex-direction: column;
-  display: flex;
 }
 
 h1 h2{

@@ -108,7 +108,7 @@ const temples = [
  const mainTitle = document.querySelector("#title");
  const container = document.querySelector(".res-grid");
                                                          
-function createTempleCards(filteredtTemples){
+function createTempleCards(filteredTemples){
 filteredTemples.forEach(temple => {
 let card = document.createElement("section");
 let name = document.createElement("h3");

@@ -1,6 +1,6 @@
 let d = new Date();
 
-document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
+document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()} Bruna Beck`;
 document.querySelector(`#lastModified`).textContent = `last Modified: ${document.lastModified}`;
 
 const hambutton = document.querySelector("#hambutton");

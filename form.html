@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Review Form</title>
-    <meta name="description" content="This project is about product review form">
+    <meta name="description" content="This project is about product review form, installation date, written feedback and more of products">
     <meta name="author" content="Bruna Beck">
     <link rel="stylesheet" href="styles/form.css">
     <script src="js/product.js" defer></script>
@@ -32,35 +32,35 @@
              
              
                <fieldset>
-                  <lagend>Overall Rating</lagend>
-                  <label><input type="radio" id="pro1" name="rating" value="1" required>⭐</label>
-                           <label><input type="radio" id="pro2" name="rating" value="2" required>⭐⭐</label>
-                           <label><input type="radio" id="pro3" name="rating" value="3" required>⭐⭐⭐</label>
-                           <label><input type="radio" id="pro4" name="rating" value="4" required>⭐⭐⭐⭐</label>
-                           <label><input type="radio" id="pro5" name="rating" value="5" required>⭐⭐⭐⭐⭐</label>
+                  <lagend>Overall Rating <span class="required">*</span></lagend>
+                  <input type="radio" id="pro1" name="rating" value="1" required><label for="pro1">⭐</label>
+                           <input type="radio" id="pro2" name="rating" value="2" required><label for="pro2"></label>⭐⭐</label>
+                          <input type="radio" id="pro3" name="rating" value="3" required><label for="pro3"></label>⭐⭐⭐</label>
+                           <input type="radio" id="pro4" name="rating" value="4" required><label for="pro4"></label>⭐⭐⭐⭐</label>
+                           <input type="radio" id="pro5" name="rating" value="5" required><label for="pro5"></label>⭐⭐⭐⭐⭐</label>
               </fieldset>
                  
               <fieldset>
-                <label for="installD">Date of Installation:</label>
+                <label for="installD">Date of Installation<span class="required">*</span></label>
                 <input type="date" id="installD" name="installD" required><div>
               </fieldset>
                
                 <fieldset>
                   <label> Useful Features</label>
-                  <input type="checkbox" id"durability" name="fetures" value="durability">Durability</label>
-                  <input type="checkbox" id"easy" name="fetures" value="durability">Easy of Use</label>
-                  <input type="checkbox" id"durability" name="fetures" value="durability">Performance</label>
-                  <input type="checkbox" id"durability" name="fetures" value="durability">Design</label>
+                  <input type="checkbox" id"durability" name="features" value="durability">Durability</label>
+                  <input type="checkbox" id"easy" name="features" value="easy">Easy of Use</label>
+                  <input type="checkbox" id"durability" name="features" value="performance">Performance</label>
+                  <input type="checkbox" id"durability" name="features" value="design">Design</label>
                   </fieldset>
         <fieldset>
           <div class="form-review">
-            <label for"review">Written Review</label>
+            <label for="review">Written Review</label>
             <textarea id="review" name="review" rows="6"></textarea>
         </fieldset>
          
           <fieldset>
             <div class="form-username">
-              <label for"username"> User Name</label>
+              <label for="username"> User Name</label>
               <input type="text" id="username" name="username"></div>
           </fieldset>
             <input type="submit" value="Post Review">

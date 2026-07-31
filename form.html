@@ -19,30 +19,31 @@
           <form action="review.html" method="get">
            
             <div class="product-form">
-              <legend>Product Name:</legend>
-              <select id="product" name="product required">
+              <label for="product">
+                Product Name <span class="required">*</span>
+              </label>
+              <select id="product" name="product" required>
                   <option value="" selected disabled>Select a Product...</option>
-                  <option value="products">AI Productivity Tools</option>
-                  <option value="products">Mini Desktop Robots</option>
-                  <option value="products">Mobile Gaming</option>
-                  <option value="products">Smart Health</option>
-                  <option value="products">Wearables</option>
-                  <option value="products">Computer</option>
+                  <option value="PT-1988">AI Productivity Tools</option>
+                  <option value="PT-1987">Mini Desktop Robots</option>
+                  <option value="PT-1980">Mobile Gaming</option>
+                  <option value="PT-1983">Smart Health</option>
+                  <option value="PT-2018">Wearables</option>
+                  <option value="PT-2008">Computer</option>
                 </div>
-             
-             
+              
                <fieldset>
-                  <lagend>Overall Rating <span class="required">*</span></lagend>
+                  <legend>Overall Rating <span class="required">*</span></legend>
                   <input type="radio" id="pro1" name="rating" value="1" required><label for="pro1">⭐</label>
-                           <input type="radio" id="pro2" name="rating" value="2" required><label for="pro2"></label>⭐⭐</label>
-                          <input type="radio" id="pro3" name="rating" value="3" required><label for="pro3"></label>⭐⭐⭐</label>
-                           <input type="radio" id="pro4" name="rating" value="4" required><label for="pro4"></label>⭐⭐⭐⭐</label>
-                           <input type="radio" id="pro5" name="rating" value="5" required><label for="pro5"></label>⭐⭐⭐⭐⭐</label>
+                           <input type="radio" id="pro2" name="rating" value="2" required><label for="pro2">⭐⭐</label>
+                          <input type="radio" id="pro3" name="rating" value="3" required><label for="pro3">⭐⭐⭐</label>
+                           <input type="radio" id="pro4" name="rating" value="4" required><label for="pro4">⭐⭐⭐⭐</label>
+                           <input type="radio" id="pro5" name="rating" value="5" required><label for="pro5">⭐⭐⭐⭐⭐</label>
               </fieldset>
                  
               <fieldset>
                 <label for="installD">Date of Installation<span class="required">*</span></label>
-                <input type="date" id="installD" name="installD" required><div>
+                <input type="date" id="installD" name="installD" required>
               </fieldset>
                
                 <fieldset>

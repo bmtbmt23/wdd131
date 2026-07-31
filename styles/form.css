@@ -13,9 +13,9 @@ body{
 
 header, footer{
 
-    background:rgb(128, 0, 128);
-    padding:25px;
-    text-align:center;
+    background: #800080;
+    padding: 25px;
+    text-align: center;
 }
 
 main{
@@ -46,9 +46,9 @@ input[type=date]{
 
 fieldset{
 
-    margin:20px 0;
-    padding:20px;
-    border:1px solid #ff4fa3;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #d8b4fe;
 }
 
 fieldset label{
@@ -85,12 +85,9 @@ input[type=submit]:hover{
         padding: 15px;
     }
 
-    fieldset{
-        padding: 15px;
-    }
-
     header, footer{
         padding: 15px;
+        background: rgb(128, 0, 128);
     }
     
 }

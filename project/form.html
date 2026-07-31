@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="This project is about product review form">
+    <meta name="author" content="Bruna Beck">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="js/product.js" defer></script>
+    <script src="js/form.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class"title">Product Review<h1>
+    </header>
+        <main>
+     
+          <form action="review.html" method="get">
+           
+            <div class="product-form">
+              <legend>Product Name:</legend>
+              <select id="product" name="product required">
+                  <option value="" selected disabled>Select a Product...</option>
+                  <option value="products">AI Productivity Tools</option>
+                  <option value="products">Mini Desktop Robots</option>
+                  <option value="products">Mobile Gaming</option>
+                  <option value="products">Smart Health</option>
+                  <option value="products">Wearables</option>
+                  <option value="products">Computer</option>
+                </div>
+             
+             
+               <fieldset>
+                  <lagend>Overall Rating</lagend>
+                  <label><input type="radio" id="pro1" name="rating" value="1" required>⭐</label>
+                           <label><input type="radio" id="pro2" name="rating" value="2" required>⭐⭐</label>
+                           <label><input type="radio" id="pro3" name="rating" value="3" required>⭐⭐⭐</label>
+                           <label><input type="radio" id="pro4" name="rating" value="4" required>⭐⭐⭐⭐</label>
+                           <label><input type="radio" id="pro5" name="rating" value="5" required>⭐⭐⭐⭐⭐</label>
+              </fieldset>
+                 
+              <fieldset>
+                <label for="installD">Date of Installation:</label>
+                <input type="date" id="installD" name="installD" required><div>
+              </fieldset>
+               
+                <fieldset>
+                  <label> Useful Features</label>
+                  <input type="checkbox" id"durability" name="fetures" value="durability">Durability</label>
+                  <input type="checkbox" id"easy" name="fetures" value="durability">Easy of Use</label>
+                  <input type="checkbox" id"durability" name="fetures" value="durability">Performance</label>
+                  <input type="checkbox" id"durability" name="fetures" value="durability">Design</label>
+                  </fieldset>
+        <fieldset>
+          <div class="form-review">
+            <label for"review">Written Review</label>
+            <textarea id="review" name="review" rows="6"></textarea>
+        </fieldset>
+         
+          <fieldset>
+            <div class="form-username">
+              <label for"username"> User Name</label>
+              <input type="text" id="username" name="username"></div>
+          </fieldset>
+            <input type="submit" value="Post Review">
+          </form>
+        </main>
+        <footer>
+          <p id="currentYear"></p>
+          <p id="lastModified"></p>
+        </footer>
+      </body>
+    </html>

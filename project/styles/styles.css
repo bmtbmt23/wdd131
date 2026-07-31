@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff;
+    color:white;
+}
+
+header, footer{
+
+    background:rgb(128, 0, 128);
+    padding:25px;
+    text-align:center;
+}
+
+main{
+
+    max-width:700px;
+    margin:30px auto;
+    background:#222;
+    padding:30px;
+    border-radius:10px;
+}
+
+label{
+
+    display:block;
+    margin-bottom:8px;
+}
+
+select,
+textarea,
+input[type=text],
+input[type=date]{
+
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:none;
+}
+
+fieldset{
+
+    margin:20px 0;
+    padding:20px;
+    border:1px solid #ff4fa3;
+}
+
+fieldset label{
+
+    display:block;
+    margin:10px 0;
+}
+
+input[type=submit]{
+
+    width:100%;
+    padding:15px;
+    background:rgb(128, 0, 128);;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:1rem;
+}
+
+input[type=submit]:hover{
+
+    background:#ff1f86;
+}

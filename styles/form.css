@@ -8,7 +8,7 @@ body{
 
     font-family:Arial, Helvetica, sans-serif;
     background:#fff;
-    color:white;
+    color: #222;
 }
 
 header, footer{
@@ -61,7 +61,7 @@ input[type=submit]{
 
     width:100%;
     padding:15px;
-    background:rgb(128, 0, 128);;
+    background:#800080;
     color:white;
     border:none;
     border-radius:6px;
@@ -70,7 +70,7 @@ input[type=submit]{
 
 input[type=submit]:hover{
 
-    background:#ff1f86;
+    background:#800080;
 }
 
 .required{

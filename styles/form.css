@@ -22,7 +22,8 @@ main{
 
     max-width:700px;
     margin:30px auto;
-    background:#222;
+    background: #d8b4fe;
+    color: #222;
     padding:30px;
     border-radius:10px;
 }
@@ -48,7 +49,7 @@ fieldset{
 
     margin: 20px 0;
     padding: 20px;
-    border: 1px solid #d8b4fe;
+    border: 1px solid #800080;
 }
 
 fieldset label{

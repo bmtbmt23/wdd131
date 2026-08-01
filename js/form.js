@@ -4,7 +4,9 @@ document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()} Bru
 document.querySelector(`#lastModified`).textContent = `lastModified:${document.lastModified}`;
 
 const select = document.querySelector("#product");
+
 products.forEach(product =>{
+  
   const option = document.createElement("option");
  
   option.value = product.id;

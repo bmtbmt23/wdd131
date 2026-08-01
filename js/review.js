@@ -8,4 +8,4 @@ reviews ++;
 
 localStorage.setItem("reviews", reviews);
 
-document.getElementById("#reviewCount").textContent = `Number of reviews completed: ${reviews}`; 
+document.getElementById("reviewCount").textContent = `Number of reviews completed: ${reviews}`; 

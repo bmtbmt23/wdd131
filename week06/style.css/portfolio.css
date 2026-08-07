@@ -1,0 +1,263 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1.6;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,
+h3 {
+  color: rgb(255, 0, 127);
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+header {
+  background: rgb(255, 0, 127);
+  color: #000000;
+  padding: 10px 15px;
+  text-align: center;
+  border-bottom: 6px solid #ff1493;
+  box-shadow: 0 4px 30px #ffffff;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+footer {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px rgb(255, 0, 127);
+  padding: 40px 0;
+}
+.logo p {
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+nav {
+  margin: 0 auto;
+  max-width: 800px;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+nav a {
+  
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: medium;
+  min-width: 100px;
+  border-radius: 6px;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  text-shadow: none;
+}
+
+nav a:hover {
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+}
+
+.card {
+  background: #111111;
+  border: 2px solid rgba(255, 105, 180, 1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+}
+
+.card a {
+  color: rgba(255, 105, 180, 1);
+}
+
+.home {
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.home img {
+  width: 220px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 105, 180, 1);
+  margin-top: 20px;
+}
+.about,
+.outside {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #111111;
+  border: 2px solid rgb(255, 0, 127);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 0, 127, 0.2);
+}
+
+.about p,
+.outside p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.wireframe img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid rgb(255, 20, 147);
+  border-radius: 8px;
+  margin-top: 10px;
+  display: block;
+}
+
+.wireframe {
+  display: flex;
+  gap: 20px;
+}
+
+.wireframe1,
+.wireframe2 {
+  flex: 1;
+}
+.contact {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #111111;
+  border: 2px solid rgb(255, 0, 127);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 0, 127, 0.2);
+}
+
+.contactForm {
+  max-width: 300px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+form {
+  width: 25%;
+  margin: 2rem auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+fieldset {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ff4fa3;
+}
+
+fieldset label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background: rgba(255, 0, 127, 0.2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+  background: #ff1f86;
+}
+
+#referenceList {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#referenceList li {
+  margin: 12px 0;
+}
+
+#referenceList a {
+  color: rgba(255, 105, 180, 1);
+  font-size: 1.2rem;
+}
+
+#referenceList a:hover {
+  color: #ffffff;
+}
+.social {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social img {
+  width: 32px;
+  height: 32px;
+}
+@media (min-width: 600px) {
+
+  .wireframe {
+    flex-direction: row;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wireframe {
+    flex-direction: column;
+  }
+
+  form {
+    width: 90%;
+  }
+
+}

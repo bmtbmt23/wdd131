@@ -31,12 +31,15 @@ const socialLinks = [
 ];
 
 const social = document.getElementById("social");
+
+if (social) {
 socialLinks.forEach(item => {
     social.innerHTML += `
     <a href="${item.url}" target="_blank rel="noopener noreferrer">
     <img src="${item.image}" alt="${item.name}" width="32"></a>` ;
 
 });
+}
 
 const reference = [
   {
@@ -56,25 +59,37 @@ const reference = [
     url: "https://javascript.info/"
   }  
 ];
+
 function display(){
 const list = document.getElementById("referenceList");
+
+if (list) {
 reference.forEach(site => {
   const li = document.createElement("li");
   li.innerHTML = `<a href="${site.url}" target="_blank"> ${site.name}</a>`;
   list.appendChild(li);
 });
 }
+}
+
 display();
 
 const review = document.getElementById("review");
-const review = document.getElementById("count");
+const count = document.getElementById("count");
+
+if(review && count){
 review.addEventListener("input", function(){
-                        count.textContent =`${review.value.length} characters`
-                        });
+                        count.textContent =`${review.value.length} characters`;
+
+ });
+}
                         
 const form = document.getElementById("contactForm");
 const message = document.getElementById("message");
+
+if (form && message){
 form.addElementListener("submit", function (event){
                         event.preventDefault();
 message.textContent = "Thank you!"
-                        });
+ });
+}

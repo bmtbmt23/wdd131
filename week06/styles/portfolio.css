@@ -268,3 +268,12 @@ input[type="submit"]:hover {
   }
 
 }
+img{
+  display: block;
+  width: 400px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px  rgb(255, 0, 127);
+  background:  rgb(255, 0, 127);
+  animation: fade 15s;
+}

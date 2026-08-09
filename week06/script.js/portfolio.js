@@ -35,8 +35,8 @@ const social = document.getElementById("social");
 if (social) {
 socialLinks.forEach(item => {
     social.innerHTML += `
-    <a href="${item.url}" target="_blank rel="noopener noreferrer">
-    <img src="${item.image}" alt="${item.name}" width="32"></a>` ;
+    <a href="${item.url}" target="_blank" rel="noopener noreferrer">
+    <img src="${item.image}" alt="${item.name}" width="32"></a>`;
 
 });
 }

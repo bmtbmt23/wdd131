@@ -44,15 +44,15 @@ socialLinks.forEach(item => {
 const reference = [
   {
     name: "Colors",
-    url: "https://coolors.co/?home",
+    url: "https://coolors.co/?home"
   },
   {
     name: "Bro Code",
-    url: "https://www.youtube.com/@BroCodez",
+    url: "https://www.youtube.com/@BroCodez"
   },
   {
     name: "W3sSchools",
-    url: "https://www.w3schools.com",
+    url: "https://www.w3schools.com"
   },
   {
     name: "JavaScript.info",

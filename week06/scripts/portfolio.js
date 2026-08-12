@@ -5,27 +5,27 @@ document.getElementById("lastModified").textContent = `lastModified:${document.l
 const socialLinks = [
     {
         name: "GitHub",
-        image: "images/github.svg",
+        image: "images/github.png",
         url: "https://github.com/bmtbmt23"
     },
      {
         name: "LinkedIn",
-        image: "images/linkedin.svg",
+        image: "images/linkedin.jpeg",
         url: "https://www.linkedin.com/"
     },
       {
         name: "CodePen",
-        image: "images/codepen.svg",
+        image: "images/codepen.png",
         url: "https://codepen.io/bmtbmt23"
     },
       {
         name: "Instagram",
-        image: "images/instagram.svg",
+        image: "images/instagram.jpeg",
         url: "https://www.instagram.com/becktargino_"
     },
       {
         name: "Facebook",
-        image: "images/facebook.svg",
+        image: "images/facebook.png",
         url: "https://www.facebook.com/"
     },
 ];
